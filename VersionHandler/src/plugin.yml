@@ -1,0 +1,7 @@
+name: VersionHandler
+main: notifyz.versionhandler.VersionPlugin
+author: Notifyz
+version: 1.0-SNAPHOST
+commands:
+  protocol:
+    aliases: [checkversion, versioncheck]
