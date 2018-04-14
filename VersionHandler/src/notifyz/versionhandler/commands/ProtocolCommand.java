@@ -58,7 +58,7 @@ public class ProtocolCommand implements CommandExecutor {
 						List<String> names = versions.keySet().stream().filter(player -> versions.get(player) == version).map(Player::getName).collect(Collectors.toList());
 						sender.sendMessage(ChatColor.GOLD + "[" + VERSION_MAPPINGS.get(version) + "] (" + ChatColor.GOLD + names.size() + "): " + ChatColor.WHITE + (names.size() > 0 ? String.join(", ", names) : "<none>"));
 					} else {
-						sender.sendMessage(ChatColor.RED + "Invalid number '" + next + "'!");
+						sender.sendMessage(ChatColor.RED + "Invalid protocol number '" + next + "'!");
 						break;
 					}
 				}
