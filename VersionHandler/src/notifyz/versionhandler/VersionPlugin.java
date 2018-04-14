@@ -4,7 +4,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import lombok.Getter;
 import lombok.Setter;
-import notifyz.versionhandler.command.ProtocolCommand;
+import notifyz.versionhandler.commands.ProtocolCommand;
 
 /**
  *
